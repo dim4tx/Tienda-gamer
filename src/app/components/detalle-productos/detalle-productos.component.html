@@ -1,0 +1,13 @@
+<div *ngIf="productoDetalle">
+  <h2>{{ productoDetalle.nombre }}</h2>
+  <img [src]="productoDetalle.imagen" alt="{{ productoDetalle.nombre }}">
+  <p>{{ productoDetalle.descripcion }}</p>
+  <p><strong>Precio:</strong> ${{ productoDetalle.precio }}</p>
+  <p><strong>Color:</strong> {{ productoDetalle.color }}</p>
+  <p><strong>Tamaño:</strong> {{ productoDetalle.tamanio }}</p>
+  <p><strong>Peso:</strong> {{ productoDetalle.peso }}</p>
+  <p><strong>Garantía:</strong> {{ productoDetalle.garantia }}</p>
+  <p><strong>Stock:</strong> {{ productoDetalle.stock }}</p>
+</div>
+
+  
