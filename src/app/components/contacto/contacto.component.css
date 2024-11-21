@@ -1,0 +1,67 @@
+.contacto {
+  padding: 40px;
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: #1a1a1a; /* Fondo oscuro */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  height: auto; /* Ajuste de altura */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+.contacto h2 {
+  text-align: center;
+  color: #ff0000; /* Rojo brillante */
+  margin-bottom: 20px;
+}
+
+.contacto label {
+  display: block;
+  color: #fff;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.contacto input,
+.contacto textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #333; /* Fondo oscuro en campos */
+  color: white;
+}
+
+.contacto button {
+  padding: 12px 20px;
+  background-color: #ff0000; /* Rojo brillante */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+}
+
+.contacto button:hover {
+  background-color: #e60000; /* Rojo más oscuro en hover */
+}
+
+.contacto input:focus,
+.contacto textarea:focus {
+  outline: none;
+  border-color: #ff0000; /* Rojo brillante en el borde al enfocar */
+}
+
+
+
+
+
+
+  
+
